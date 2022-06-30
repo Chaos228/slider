@@ -21,8 +21,14 @@ body {
     margin: 0 auto;
 }
 
+.title {
+    display: flex;
+    align-items: center;
+}
+
 .slider__info {
     width: 442px;
+    position: relative;
 }
 
 .rostov_patriotic, .sochi, .rostov_admiral {
@@ -45,7 +51,7 @@ p {
     margin: 0;
 }
 
-.title {
+.title__text {
     font-size: 27px;
     line-height: 37.42px;
     margin-top: 176.36px;
@@ -201,4 +207,10 @@ p {
 
 .slider__images .image.active {
     opacity: 1;
+}
+
+.title__line {
+    position: absolute;
+    left: 161px;
+    top: 228px;
 }
